@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main{
+    background:url(img/garrett_parker.png) center center/cover no-repeat;
+    height: 765px;
+}
+
+nav {
+    height: 90px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    height: 90px;
+    list-style: none;
+    background-color: #F2785C;
+    opacity: 0.7;
+}
+
+nav li{
+    color: white;
+}
+
+nav button{
+    background-color: #0D606F;
+    color: white;
+    height: 41px;
+    width: 103px;
+    border: none;
+    border-radius: 10px;
+
+}
