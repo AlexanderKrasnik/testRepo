@@ -132,7 +132,7 @@ label{
 
 .steps{
     width: 1440px;
-    height: 291px; 
+    height: 424px; 
 }
 
 .stepsCaption{
@@ -145,8 +145,7 @@ label{
     font-size: 40px;
     line-height: 53px;
     color: #F2785C;
-    justify-content: center
-    ;
+    justify-content: center;
 }
 
 .blockSteps{
@@ -166,6 +165,7 @@ label{
     border-radius: 16px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .calendar{
@@ -178,6 +178,7 @@ label{
     border-radius: 16px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .plane{
@@ -190,6 +191,7 @@ label{
     border-radius: 16px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .steps p{
@@ -215,4 +217,53 @@ label{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.destination{
+    width: 1440px;
+    height: 1042px;
+}
+
+.destinationCaption{
+    padding-bottom: 40px;
+    display: flex;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    justify-content: center;
+}
+
+.destination button{
+    margin-right: 18px;
+    background-color: #0D606F;
+    color: white;
+    height: 59px;
+    width: 228px;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.slider{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+.slider img{
+    margin: 0 30px 0 30px;
+    border-radius: 16px;
+}
+
+.destination .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 84px;
 }
