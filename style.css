@@ -267,3 +267,62 @@ label{
     justify-content: center;
     margin-top: 84px;
 }
+
+.stories{
+    width: 1440px;
+    height: 1363px;
+    
+}
+
+.storiesText{
+    height: 1270px;
+    background: url(img/Boat.png);
+}
+
+.storiesCaption{
+    margin-top: 80px;
+    padding-bottom: 52px;
+    display: flex;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    justify-content: center;
+}
+
+.story1 {
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    padding: 28px 126px 15px 119px;
+}
+.story2 {
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    padding: 15px 126px 15px 119px;
+}
+.story3 {
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    padding: 15px 126px 15px 119px;
+}
+.story4 {
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    padding: 15px 126px 15px 119px;
+}
+.stories img{
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+    margin-right: 40px;
+}
+
+.stories .text{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
